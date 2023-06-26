@@ -1,3 +1,13 @@
+*{
+  // outline: 1px solid red;
+  overflow: hidden;
+}
+
+.ion-content{
+  max-height: 677px;
+  max-width: 400px;
+}
+
 #container {
   text-align: center;
 
@@ -25,3 +35,35 @@
 #container a {
   text-decoration: none;
 }
+
+.separador{
+  border: 1px solid #eb445a;
+}
+// ion-input{
+//   --border: none;
+// }
+
+.botao{
+height: 65px;
+width: 65px;
+text-align: center;
+}
+
+.container-high{
+height: 30%;
+margin-top: 20px;
+}
+.container-low{
+  height: 70%;
+}
+.ion-icon{
+  height: 100%;
+  width: 100%;
+}
+.apagador{
+height: 30px;
+height: 30px;
+}
+
+
+
