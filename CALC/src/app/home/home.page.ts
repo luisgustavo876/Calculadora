@@ -11,6 +11,8 @@ export class HomePage {
   memoria: number = 0;
   operacao: string = "";
   ponto: string = "";
+  iscomma = false;
+
 
   constructor() {}
 
@@ -43,7 +45,18 @@ export class HomePage {
       this.ponto = "";
     }
 
+    else if (parametro == "--") {
+        this.valor = this.valor = 0;
+    }
+
+    else if (parametro == "%") {
+        this.memoria = Number(this.valor=0) / 100;
+        this.memoria = this.memoria;
+
   }
+
+  }
+  
 
   calcula(tipo:string) {
 
@@ -64,7 +77,18 @@ export class HomePage {
     }
 
     else if (this.operacao == "/") {
-      this.memoria = this.memoria / this.valor ;      //  
+      this.memoria = this.memoria / this.valor ;     
+    }
+
+    else if (this.operacao == "X²") {
+      this.memoria = this.memoria ** this.valor;     
+      // if (this.operacao == "X²"){
+      //   this.calcula+this.clickBotao+this.clickOutros === (this.tipo=="=")
+      // } 
+    }
+
+    else if (this.operacao == "√") {
+      this.memoria = Math.sqrt(this.memoria);     
     }
 
     if (tipo=="=") {
