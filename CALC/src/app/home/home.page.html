@@ -15,17 +15,16 @@
               <p style="text-align: right; margin-right: 20px;">{{memoria}} {{operacao}}</p>
               <ion-input class="input" readonly value="" [(ngModel)]="valor" type="number" style="text-align: right; font-size: xx-large; margin-right: 20px;" ></ion-input>
       
-        <ion-row class="ion-justify-content-end"> 
+        <ion-row > 
 
             <ion-button size="large" class="porcentagem  wrapper" fill="clear"  (click)="clickBotao('%')" color="danger" expand="block">%</ion-button>
             
-             <ion-col>
               <ion-button  class="apagador" fill="clear" (click)="clickOutros('--')" expand="block" color="danger ">
                 <ion-icon  size="large" name="backspace-outline"></ion-icon>
               </ion-button>
-             </ion-col>
 
         </ion-row>
+
       </div>
             </ion-col>
           </ion-row>
