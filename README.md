@@ -1,2 +1,2 @@
 # Calculadora
-calculadora  funcional completa tema laranja
+calculadora  funcional completa tema Vermelha
