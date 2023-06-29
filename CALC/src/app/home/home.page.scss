@@ -4,10 +4,11 @@
 }
 
 
+
 .container-geral{
-  max-height: 677px;
-  max-width: 400px;
-  --background:#262626;
+  display: flex;
+  width: 100vw;
+  height: 100vh; 
 }
 
 #container {
@@ -59,7 +60,7 @@ margin-top: 20px;
 
 
 .tela{
-  background-color: #303030;
+  background-color: #303030;  
 }
 // .input{
 //   --border-style:#121212;
@@ -96,9 +97,9 @@ margin-top: 20px;
   }
 
 .tudo{
-  width: 100vw;
-  height: 100vh;
-  
+  max-height: 677px;
+  max-width: 400px;
+  background:#262626;
 }
 
 ion-button {

@@ -11,7 +11,6 @@ export class HomePage {
   memoria: number = 0;
   operacao: string = "";
   ponto: string = "";
-  iscomma = false;
 
 
   constructor() {}
@@ -50,9 +49,7 @@ export class HomePage {
     }
 
     else if (parametro == "%") {
-        this.memoria = Number(this.valor=0) / 100;
-        this.memoria = this.memoria;
-
+        this.valor = this.valor /100 ;
   }
 
   }
@@ -65,7 +62,7 @@ export class HomePage {
     }
 
     else if (this.operacao == "+") {
-      this.memoria = this.memoria + this.valor;
+      this.memoria = this.memoria + this.valor ;
     }
 
     else if (this.operacao == "-") {
